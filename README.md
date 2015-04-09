@@ -12,6 +12,7 @@ If lines longer than 80 chars are found, it will display the length of the line,
 
 
 # To Do
+- Make the code more object-oriented.
 - Make selection of files that need to be read (i.e. files that contain code) "smarter."
 - Add additional accessible options through command line arguments.
 - - Check Specific file/directory.
@@ -19,3 +20,4 @@ If lines longer than 80 chars are found, it will display the length of the line,
 - Red vim setup files like .vimrc so that line output matches vim's formatting.
 - Recommended locations for newlines to bring line lengths down to under 80 chars.
 - - Make it so that recommended locations for newlines match closely with c++ coding style guidelines.
+- - Allow changes to files to be made from within the program through slection of lines.
