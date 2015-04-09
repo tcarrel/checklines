@@ -12,7 +12,7 @@ If lines longer than 80 chars are found, it will display the length of the line,
 
 
 # To Do
-- Make selection of files that need to read (i.e. files that contain code) "smarter."
+- Make selection of files that need to be read (i.e. files that contain code) "smarter."
 - Add additional accessible options through command line arguments.
 - - Check Specific file/directory.
 - - Enable/Disable colored output.
