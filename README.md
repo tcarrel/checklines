@@ -6,7 +6,7 @@ After compiling, give the executable the name of your choice if you don't like t
 Copy the file into your "~/bin" directory.
 
 # Use and output
-Type <lines> or whatever name you gave the executable.
+Type <lines> or whatever name you gave the executable.  Only works on Linux, so far.
 If no lines longer than 80 chars are found, it wills say so along with a list of all the files checked, the number of lines in each file, and the total number of lines.
 If lines longer than 80 chars are found, it will display the length of the line, the line number, and the contents of the line.
 
@@ -21,3 +21,4 @@ If lines longer than 80 chars are found, it will display the length of the line,
 - Recommended locations for newlines to bring line lengths down to under 80 chars.
 - - Make it so that recommended locations for newlines match closely with c++ coding style guidelines.
 - - Allow changes to files to be made from within the program through slection of lines.
+- Make program work across more platforms, Win and Mac at least.  Currently only works on Linux.
