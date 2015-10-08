@@ -44,7 +44,8 @@ int main()
         if( dot_loc != std::string::npos )
         {
             string extension = filename.substr( dot_loc + 1 );
-            if( extension != "" && EXTENSIONS.find(extension) != std::string::npos )
+            if( extension != "" &&
+                    EXTENSIONS.find(extension) != std::string::npos )
             {
                 int line_num = 0;
                 num_files++;
@@ -93,7 +94,9 @@ int main()
     if( num_files > 0 )
     {
         // This line is intentionally too long to allow for testing.
-        cout << " Checked " << num_lines - num_files << " total lines over " << num_files << " files." << endl << endl;
+        cout << " Checked " << num_lines - num_files <<
+            " total lines over " << num_files <<
+            " files." << endl << endl;
 
         if( num_long_lines == 0 ) 
         {
@@ -112,7 +115,8 @@ int main()
         else
         {
             int line_length = 26;
-            line_length += floor(log10(num_long_lines)); //Adds num of chars in int
+            line_length +=
+                floor(log10(num_long_lines)); //Adds num of chars in int
             string blank_line = string( line_length, ' ') + "\n";
 
             cout << "\033[1;37;41m" << flush;
